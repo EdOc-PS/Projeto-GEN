@@ -1,0 +1,3 @@
+Arquivos css:
+- Arquivos css sem o sufixo media-query são para a modelagem no telefone;
+- structured contem o cabeçalho, main e o rodape
