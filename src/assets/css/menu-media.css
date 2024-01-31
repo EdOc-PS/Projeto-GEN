@@ -1,0 +1,60 @@
+@media screen and (min-width: 992px) {
+    
+    .card-unlock{
+        display: none;
+    }
+    section.filter{
+        padding: 2.5rem 0;
+        position: fixed;
+        left: 0%;
+        gap: 3rem;
+        width: 25vw;
+        background-color: #645CAA;
+        height: calc(100vh - 90px);  
+        z-index: 2;
+    }
+    section.filter .input-name-food {
+        width: 20vw;
+        height: 2.7rem;
+        background-color: #5A539D;
+        border: 1.5px solid #3a3470;
+    }
+    section.filter .input-name-food input{
+        width: 20vw;   
+    }
+    .input-name-food input::placeholder{
+        color: #3a3470;
+        font-size: 15px;
+    }
+    section.filter .input-name-food i{
+        color: #3a3470;
+    }
+    section.filter .bar-menu{
+        width: 20vw; 
+    }
+    section.filter .bar-menu .bar-menu-ul{
+        flex-direction: column;
+        overflow-x:hidden ;
+        gap: 2rem;
+    }
+    section.filter .bar-menu .bar-menu-li{
+        font-size: 18px;
+        background-color: #5a539d;
+        border-radius: 10px;
+        color: #F7F7F7;
+        height: 7vh;
+        display: flex;
+        padding: .5rem;
+        align-items: center;
+    } 
+
+    /*foods*/
+    section.foods{
+        height: calc(100vh - 90px);  
+        width: 75vw;
+        position: absolute;
+        right: 0%;
+        align-items: center;
+        justify-content: start;
+    }
+}

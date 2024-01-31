@@ -1,0 +1,19 @@
+@media screen and (min-width: 992px) {
+    header.bar-header {
+        position: fixed;
+        top: 0%;
+        z-index: 3;
+        top: 0;
+    }
+    main.menu{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        height: calc(100vh - 90px);
+
+    }
+    footer.bar-footer{
+        display: none;
+    }
+
+}
