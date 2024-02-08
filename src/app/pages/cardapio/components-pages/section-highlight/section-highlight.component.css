@@ -1,0 +1,13 @@
+/* Card em destaque */
+
+.card-highlight{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.card-highlight .slide-highlight img{
+  width: 82vw;
+  height: auto;
+  border-radius: 25px;
+}

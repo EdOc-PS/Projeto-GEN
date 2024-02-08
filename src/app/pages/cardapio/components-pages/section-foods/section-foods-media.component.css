@@ -1,0 +1,10 @@
+@media screen and (min-width: 992px) {
+  section.foods {
+    height: calc(100vh - 90px);
+    width: 75vw;
+    position: absolute;
+    right: 0%;
+    align-items: center;
+    justify-content: start;
+  }
+}

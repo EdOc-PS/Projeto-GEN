@@ -1,0 +1,34 @@
+footer.bar-footer {
+  position: fixed;
+  background-color: #F7F7F7;
+  width: 100%;
+  bottom: 0%;
+  height: 90px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border-top: 1px solid #c7c7c7;
+}
+
+.bar-footer .bar-footer-options {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.bar-footer-options .menu,
+.bar-footer-options .cart {
+  color: gray;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 110px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+}

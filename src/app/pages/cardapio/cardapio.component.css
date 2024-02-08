@@ -1,0 +1,12 @@
+main.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  height: calc(auto - 180px);
+  top: calc(0% + 90px);
+  gap: 1.8rem;
+  width: 100%;
+  margin-top: 3vh;
+}

@@ -1,0 +1,8 @@
+@media screen and (min-width: 992px) {
+  header.bar-header {
+    position: fixed;
+    top: 0%;
+    z-index: 3;
+    top: 0;
+  }
+}

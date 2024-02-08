@@ -1,0 +1,25 @@
+
+/* menu alto */
+header.bar-header {
+  position: fixed;
+  background-color: #A076F9;
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+}
+
+.bar-header .header-ul {
+  width: auto;
+  gap: 1.5rem;
+  margin-right: .5rem;
+}
+
+.bar-header img#logo {
+  width: 80px;
+  margin-left: .5rem;
+}
