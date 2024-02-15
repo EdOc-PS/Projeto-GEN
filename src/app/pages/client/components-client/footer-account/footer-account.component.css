@@ -1,0 +1,28 @@
+.container-header-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  width: 100%;
+}
+
+.option-singup,
+.option-login {
+  height: 3.7rem;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-login,.option-singup {
+  border-radius: 0 0 20px 20px;
+}
+
+.actived-account
+{
+  background-color: white;
+}
